@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin           : 0;
+        }
+        #divBlue {
+            position         : absolute;
+            top              : 100px;
+            background-color : blue;
+            width            : 250px;
+            height           : 250px;
+        }
+        #divRed {
+            position         : absolute;
+            top              : 100px;
+            background-color : red;
+            width            : 250px;
+            height           : 250px;
+        }
+        #divYellow {
+            position         : absolute;
+            top              : 100px;
+            background-color : yellow;
+            width            : 250px;
+            height           : 250px;
+        }
+        #divGreen {
+            position         : absolute;
+            top              : 100px;
+            background-color : green;
+            width            : 250px;
+            height           : 250px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>JS Crash Course4</h1>
+    </header>
+    <button onclick="onClickRed()">red</button>
+    <button onclick="onClickYellow()">yellow</button>
+    <button onclick="onClickGreen()">green</button>
+    <div id="divBlue">
+    </div>
+    <script>
+        var divObj = document.getElementById("divBlue")
+        function onClickRed() {
+            divObj.setAttribute("id","divRed", )
+        }
+        function onClickYellow() {
+            divObj.setAttribute("id","divYellow", )
+        }
+        function onClickGreen() {
+            divObj.setAttribute("id","divGreen", )
+        }
+    </script>
+</body>
+</html>
