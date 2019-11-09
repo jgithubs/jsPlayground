@@ -1,0 +1,23 @@
+.clsButton1 {
+    /* Color of the button */
+    background-color:gainsboro;
+    color: black;
+
+    /* Border */
+    border       : 0;          /* Eliminates the border */
+    padding      : 8px 12px;
+    border-radius: 3px;        /* Round out the box     */
+
+    /* Font */
+    font-size: 1em;
+
+    /* Alignment */
+    text-decoration: none;
+
+    /* Text Position */
+    vertical-align: middle;
+
+    /* Cursor */
+    cursor: pointer;
+}
+

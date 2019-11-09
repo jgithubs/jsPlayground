@@ -1,0 +1,63 @@
+/* CSS is a style language */
+/* Selectors: Element, Class(.), ID(#) */
+#idBoxSize1 {
+    width            : 250px;    /* Size     */
+    height           : 250px;    /* Size     */
+}
+
+#idColorRed1 {
+    background-color : red;    /* Color    */    
+}
+
+#idRed1 {
+    position         : absolute; /* Position */
+    top              : 100px;    /* Position */
+    background-color : red;    /* Color    */
+    width            : 250px;    /* Size     */
+    height           : 250px;    /* Size     */
+}
+#idRed2 {
+    position         : absolute;
+    top              : 100px;
+    background-color : darkred;
+    width            : 250px;
+    height           : 250px;
+}
+#idYellow1 {
+    position         : absolute;
+    top              : 100px;
+    background-color : yellow;
+    width            : 250px;
+    height           : 250px;
+}
+#idYellow2 {
+    position         : absolute;
+    top              : 100px;
+    background-color :khaki;
+    width            : 250px;
+    height           : 250px;
+    }
+#idGreen1 {
+    position         : absolute;
+    top              : 100px;
+    background-color : green;
+    width            : 250px;
+    height           : 250px;
+}
+#idGreen2 {
+    position         : absolute;
+    top              : 100px;
+    background-color : green;
+    width            : 250px;
+    height           : 250px;
+}
+
+.clsResult.pass{
+    background-color: darkseagreen;
+}
+.clsResult.fail{
+    background-color: darkseagreen;
+}
+.clsResult.skip{
+    background-color: darkseagreen;
+}
