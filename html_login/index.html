@@ -8,20 +8,31 @@
 </head>
 <body>
 
-    <!-- 'action', where your form is being submitted to -->
-    <!-- 'method', method you want your form to use      -->
+    <!-- Tutorial is the form                                 -->
+    <!-- 'action', where to submit the form to                -->
+    <!-- 'method', method you want your form to use  GET,POST -->
     <form action="results.html" method="GET">
+        <!-- Input 1 -->
+        <!-- 'type',  will generated a text box                     -->
+        <!-- 'value', value should be the user's email address      -->
+        <!-- 'required', will not submit until the user enters data -->
+        <!-- 'for',      will highlight the input. Need to lock to the input -->
         <div>
             <label>Name</label>
-            <input name="name">
+            <input type="text" name="name" placeholder="name or email" required>
         </div>
 
+        <!-- Input 2 -->
+        <!-- 'password', will hide typed text     -->
         <div>
             <label>Password</label>
-            <input name="password">
+            <input type="password" name="password">
         </div>
 
-        <button>Submit</button>
+        <!-- 'submit', will enable a CR to submit -->
+        <!-- 'reset',  will clear all entries     -->
+        <button type="submit" >Submit</button>
+        <button type="reset">Clear</button>
     </form>
 </body>
 </html>
