@@ -1,0 +1,11 @@
+jgithubs
+
+git init
+
+git status
+
+git pull
+
+git add <dir>
+git add <fn>
+git commit -m "first time"
