@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Tutorial is the form                                 -->
+    <!-- 'action', where to submit the form to                -->
+    <!-- 'method', method you want your form to use  GET,POST -->
+    <form action="results.html" method="GET">
+        <!-- Input 1 -->
+        <!-- 'type',  will generated a text box                     -->
+        <!-- 'value', value should be the user's email address      -->
+        <!-- 'required', will not submit until the user enters data -->
+        <!-- 'for',      will highlight the input. Need to lock to the input -->
+        <div>
+            <label>Name</label>
+            <input type="text" name="name" placeholder="name or email" required>
+        </div>
+
+        <!-- Input 2 -->
+        <!-- 'password', will hide typed text     -->
+        <div>
+            <label>Password</label>
+            <input type="password" name="password">
+        </div>
+
+        <!-- 'submit', will enable a CR to submit -->
+        <!-- 'reset',  will clear all entries     -->
+        <button type="submit" >Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+</html>

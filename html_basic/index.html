@@ -1,19 +1,29 @@
 <!-- Declaration that this is HTML5 -->
 <!DOCTYPE html>
 <html>
+    <!-- Displays title in the tab                    -->
+    <!-- https://www.w3schools.com/html/html_head.asp -->
     <head>
         <title>HTML Cheet Sheet</title>
     </head>
     <body>
-        <!-- Sizes can be changed using css -->
+
+
+        <!-- Header Default sizing can been seen using Google Chrome -->
+        <!-- Sizes can be changed using css                   -->
+        <!-- https://www.w3schools.com/html/html_headings.asp -->
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>
         <h3>Heading 3</h3>
         <h4>Heading 4</h4>
         <h5>Heading 5</h5>
         <h6>Heading 6</h6>
-        <!-- Paragraph w/lorem data -->
-        <!-- Has a default margin -->
+
+
+
+        <!-- Paragraph w/lorem data                                   -->
+        <!-- Uses a default margin                                    -->
+        <!-- Link: https://www.w3schools.com/html/html_paragraphs.asp -->
         <p>
             Lorem ipsum dolor sit amet <strong>consectetur adipisicing</strong> elit. Illo in ut id aliquid reiciendis nam dolorum placeat vitae, distinctio reprehenderit inventore alias nisi harum minus, accusamus deserunt, delectus modi debitis!
         </p>
@@ -21,7 +31,11 @@
             Lorem <a href="http://google.com">ipsum dolor sit</a>, amet consectetur adipisicing elit. Magnam <em>incidunt laboriosam</em> praesentium facere dignissimos? Consequuntur officia, culpa deleniti fugiat laboriosam, repellat sunt tempore, hic incidunt id vel dicta libero assumenda.
         </p>
 
-        <!-- List UnOrder|OrderList-->
+
+
+        <!-- List UnOrderList|OrderedList                  -->
+        <!-- ListItem                                      -->
+        <!-- https://www.w3schools.com/html/html_lists.asp -->
         <ul>
             <li>Item 1</li>
             <li>Item 2</li>
@@ -29,12 +43,22 @@
             <li>Item 4</li>
         </ul>
         <ol>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-                <li>Item 4</li>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
         </ol>
-        <!-- Table -->
+
+
+
+        <!-- Table                                          -->
+        <!-- TableHead                                      -->
+        <!--   TableRow                                     -->
+        <!--   TableHeader                                  -->
+        <!-- TableBody                                      -->
+        <!--   TableRow                                     -->
+        <!--   TableData                                    -->
+        <!-- https://www.w3schools.com/html/html_tables.asp -->
         <table>
             <thead>
                 <tr>
@@ -54,11 +78,32 @@
                     <td>dataE</td>
                     <td>dataF</td>
                 </tr>
-
             </tbody>
         </table>
 
+        <!-- Horizontal Rule -->
+        <hr>
+
         <!-- Forms -->
-        <form action="process.php"></form>
+        <!-- https://www.w3schools.com/html/html_forms.asp            -->
+        <!-- Input Types                                              -->
+        <!-- https://www.w3schools.com/html/html_form_input_types.asp -->
+        <!-- 'action' is who the form will be submitted to   -->
+        <!-- 'method' is    -->
+        <form action="result.html" method="GET">
+            <label for="xx">Name</label>
+            <input type="text" name="userName" placeholder="User Name">        
+            <br>
+            
+            <label for="Duration">Duration</label>
+            <select name="durationOption">
+                <option value="durHrs2">2 hours</option>
+                <option value="durHrs4">4 hours</option>
+            </select>
+            <br>
+
+            <button>Reserve</button>
+            <button>Cancel </button>
+        </form>
     </body>
 </html>
