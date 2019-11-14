@@ -9,9 +9,11 @@ git restore
 
 git pull
 
+git mv <dir1> <dir2>
 git add <dir>
 git add <fn>
 git commit -m "first time"
+git push
 
 
 
