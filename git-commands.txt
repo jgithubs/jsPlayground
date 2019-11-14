@@ -9,6 +9,9 @@ git restore
 
 git pull
 
+git stage
+
+git mv <file> ../<dir>/<file>
 git mv <dir1> <dir2>
 git add <dir>
 git add <fn>
