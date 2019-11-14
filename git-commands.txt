@@ -1,11 +1,25 @@
 jgithubs
+https://github.com/jgithubs/jsPlayground.git
 
 git init
 
 git status
+
+git restore
 
 git pull
 
 git add <dir>
 git add <fn>
 git commit -m "first time"
+
+
+
+
+
+
+GUI
+---
+
+1. Bash can be accessed where the above commands can be used.
+   
