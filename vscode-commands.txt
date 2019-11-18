@@ -1,0 +1,5 @@
+mkdir stuff
+cd stuff
+code .
+
+F2, to rename
