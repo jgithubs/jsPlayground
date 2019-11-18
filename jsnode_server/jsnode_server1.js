@@ -2,6 +2,6 @@
 
 function sayHello(name) {
     console.log('Hello '+name);
-}
+} // function
 
 sayHello('Janet');
