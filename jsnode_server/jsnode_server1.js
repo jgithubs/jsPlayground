@@ -1,7 +1,9 @@
-// https://www.youtube.com/watch?v=TlB_eWDSMt4, 
+// Modules
 
 function sayHello(name) {
     console.log('Hello '+name);
 } // function
 
 sayHello('Janet');
+// console.log(window);
+// console.log(module);

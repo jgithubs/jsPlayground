@@ -2,8 +2,41 @@
 
 This project is the path to learn HTML/CSS/JavaScript.
 The path is to start from the FrontEnd then proceed to a minimal BackEnd.
-When the RFID tag is registered with the Raspberry Pi, the student will provide their content that consist of a audio file and pictures.
-The details to access the project is [described and published](https://github.com/jgithubs/jsPlaygrount) on GitHub.
+The details to access the project is [described and published](https://github.com/jgithubs/jsPlayground) on GitHub.
+
+## Node.js Tutorial for Beginners: Learn Node in 1 Hour
+Programming with Mosh
+[First Node Application](https://www.youtube.com/watch?v=TlB_eWDSMt4&t=13m01s) 
+
+jsnode_server1.js
+
+### Node Module System 
+
+[Global Object](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=15m54s) 
+
+[Modules](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=19m16s) 
+
+[Creating a Module](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=22m52s) 
+
+[Path Module](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=39m55s) 
+
+[Events Module](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=53m19s) 
+
+[Event Arguments](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=59m37s) 
+
+[Extending EventEmitter](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=1h02m46s) 
+
+[HTTP Modules](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=1h10m49s) 
+jsnode_server6.js
+
+[HTTP Modules Callback](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=1h14m00s) 
+jsnode_server7.js
+
+## Node.js Tutorial for Beginners: Learn Node in 1 Hour
+### Frameworks
+
+Restful Services 
+
 
 ## Project Components
 

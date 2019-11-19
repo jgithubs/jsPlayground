@@ -15,6 +15,7 @@ git mv <file> ../<dir>/<file>
 git mv <dir1> <dir2>
 git add <dir>
 git add <fn>
+git rm <fn>
 git commit -m "first time"
 git push
 

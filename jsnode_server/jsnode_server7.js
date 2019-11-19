@@ -1,4 +1,5 @@
-// 1:15:00
+// HTTP Module w/Callback
+// Later 'Express' that is built on top of HTTP
 const http = require('http');
 
 // This is an event emitter
