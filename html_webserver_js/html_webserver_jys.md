@@ -4,25 +4,19 @@ This project is the path to learn HTML/CSS/JavaScript.
 The path is to start from the FrontEnd then proceed to a minimal BackEnd.
 The details to access the project is [described and published](https://github.com/jgithubs/jsPlayground) on GitHub.
 
-## Multipage Website (Part 1 thru Part 4)
-#### TechnicalCafe 
+## Node.js Web Server
+#### Web Dev Simplified 
 
-[Part1, HTML Tutorial 27 - Multipage Website](https://www.youtube.com/watch?v=2kEJR7HWodU)
-
-[Part2, HTML Tutorial 28 - Multipage Website](https://www.youtube.com/watch?v=Klf6M6REWzw)
-
-[Part3, HTML Tutorial 29 - Multipage Website](https://www.youtube.com/watch?v=fhigeuFPVm8)
-
-[Part4, HTML Tutorial 30 - Multipage Website](https://www.youtube.com/watch?v=l-t85yDh0tc)
+[Part1, Your First Node.js Web Server](https://www.youtube.com/watch?v=VShtPwEkDD0&list=PLMPcDMK7qdEPBbFgNuK-erkIktXrq2G6m)
 
 #### Sections
 
-[HTML Page Review, 0m19s](https://www.youtube.com/watch?v=2kEJR7HWodU&t=0m19s) 
-* Show finished web page
+[HTML Page Review, 0m19s](https://www.youtube.com/watch?v=VShtPwEkDD0&list=PLMPcDMK7qdEPBbFgNuK-erkIktXrq2G6m) 
+* Introduction
 
-[HTML Code Review, 1m32s](https://www.youtube.com/watch?v=2kEJR7HWodU&t=1m32s) 
-* Show finished HTML code
-* Show directory and filenames
+[Install Node.js, 0m15s](https://www.youtube.com/watch?v=VShtPwEkDD0&list=PLMPcDMK7qdEPBbFgNuK-erkIktXrq2G6m) 
+* Long Term Support / Current
+* Run java script outside of the browse
 
 [HTML Outline, 4m00s](https://www.youtube.com/watch?v=2kEJR7HWodU&t=4m00s) 
 * html tag
