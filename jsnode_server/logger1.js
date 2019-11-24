@@ -8,6 +8,7 @@ function log(message) {
 }
 
 // Two export types:
-//module.exports.log = log; // 1. Export the object for all methods. Adding a method 'log'
-//module.exports.url = url;    2. Export the url
-  module.exports     = log; // 3. Export for one specific function
+//module.exports.log = log;      // 1. Export the object for all methods. Adding a method 'log'
+//module.exports.url = url;      // 2. Export the url
+//module.exports.endpoint = url; // 3. Export the url as another name
+  module.exports     = log;      // 4. Export for one specific function

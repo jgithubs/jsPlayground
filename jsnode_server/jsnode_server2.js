@@ -9,8 +9,8 @@ console.log(pathObj);
 const os = require('os');
 var tm   = os.totalmem();
 var fm   = os.freemem();
-console.log(tm);
-console.log(fm);
+console.log('Total Memory: ' + tm);
+console.log('Free Memory : ' + fm);
 
 // Usage of Template String
 // ES6 : ES2015 : ECMAScript 6
