@@ -10,9 +10,54 @@ Programming with Mosh
 
 jsnode_server1.js
 
-### Node Module System 
+### Scrum an Agile Pratice
 
-[Global Object](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=15m54s) 
+* Product Backlog
+* Sprints
+    * Plan
+    * Build
+    * Test
+    * Review
+* Team Role
+* Burndown Charts
+
+### Features
+* User Stories
+* Release Backlog
+  * User Stories
+    * Describes a feature set
+    * Estimates via Story Points (in hours)
+    * Large Bucket (in days)
+* Sprints
+  * 1 to 3 Week or month
+  * A subset of release backlogs
+  * Short manage pieces
+* Burndown Charte
+  * The amount of remaining
+  * Burndown velocity
+  * Can be used to estimate the completion date
+* Meetins
+  * Sprint Planning
+  * Daily Scrum
+  * Sprint Review
+* Tools
+  * On Time
+  * JIRA
+  * Uzility
+  
+
+### Roles
+* Product Owner
+  * Defines the features
+* Scrum Master
+  * Survent leader to the team
+* Team
+    * Developer
+    * Tester
+    * Customer
+    * Executive
+
+[Intro](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=15m54s) 
 
 [Modules](http://www.youtube.com/watch?v=TlB_eWDSMt4&t=19m16s) 
 

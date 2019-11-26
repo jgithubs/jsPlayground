@@ -2,26 +2,41 @@ jgithubs
 https://github.com/jgithubs/jsPlayground.git
 
 git init
+:: Creates a .git folder
+
+git remove -v
+git remote add origin <git-link>
+
+cat .git/config
+
+git config --global user.name "tenaj"
+git config --global user.email "tenaj.ralohs@gmail.com"
 
 git status
+
+:: Remove file from the staged
+git rm --cached <fn>
 
 git restore
 
 git pull
 
-git stage
+cd <path>
+git fetch origin
+git reset --hard origin/master
+
+git stage .
+git commit -m "updates"
+git push
 
 git mv <file> ../<dir>/<file>
 git mv <dir1> <dir2>
 git add <dir>
 git add <fn>
+git add .
 git rm <fn>
 git commit -m "first time"
 git push
-
-
-
-
 
 
 GUI
