@@ -26,9 +26,12 @@ git fetch origin
 git reset --hard origin/master
 
 git stage .
+git stage <file>
+git status
 git commit -m "updates"
 git push
 
+git mv <file1> <file2>
 git mv <file> ../<dir>/<file>
 git mv <dir1> <dir2>
 git add <dir>
